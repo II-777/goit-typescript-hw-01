@@ -1,4 +1,3 @@
-// Оголошення інтерфейсу Page
 interface Page {
   title: string;
   likes: number;
@@ -10,7 +9,6 @@ interface Page {
   };
 }
 
-// Оголошення об'єкта page1 з типом Page
 const page1: Page = {
   title: 'The awesome page',
   likes: 100,
@@ -22,7 +20,6 @@ const page1: Page = {
   }
 };
 
-// Оголошення об'єкта page2 з типом Page
 const page2: Page = {
   title: 'Python or Js',
   likes: 5,

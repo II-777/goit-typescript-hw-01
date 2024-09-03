@@ -1,4 +1,3 @@
-// Оголошення інтерфейсу User
 interface User {
   name: string;
   age: number;
@@ -9,7 +8,6 @@ interface User {
   };
 }
 
-// Оголошення об'єкта mango з типом User
 const mango: User = {
   name: 'Mango',
   age: 30,
@@ -20,7 +18,6 @@ const mango: User = {
   }
 };
 
-// Оголошення об'єкта poly з типом User
 const poly: User = {
   name: 'Poly',
   age: 30,
